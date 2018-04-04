@@ -1,0 +1,246 @@
+body{
+    margin: :0;
+    padding: : 0;
+    background: #EEEEEE;
+    font-family: :'Tw Cen Mt';
+}
+
+
+h1,h2,h3,4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+div, aside, header, section{
+    box-sizing: border-box;
+}
+
+/*ASIDE CSS*/
+
+aside#sidebar{
+    width: 30%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+}
+
+
+aside header{
+    background: #0a73bc;
+    padding-top: 20px;
+    text-align: center;
+    }
+
+
+    
+div.avatar{
+    background: #fff;
+    width: 150px;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 100%;
+    
+}
+
+.foto{
+        border-radius: 100%;
+        width: 150px;
+     height: 150px;
+}
+
+.text p{
+    color: azure;
+}
+
+div.text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+
+.text h1{
+    color: azure;    
+}
+
+div.text + p{
+    color: azure;    
+}
+
+
+#skill{
+    padding: 20px 10%;
+    overflow-y: scroll;  
+}
+
+
+#skill h1 {
+    font-family:'Calibri Light';
+    color: #6d6d6d;
+    font-size: 35;
+}
+
+#list-skill{
+    /*overflow-y: scroll;*/ 
+    height: 400px;
+    display: block;
+    list-style-type: none;
+}
+
+#list-skill il{
+    display: block;
+    padding: 5px 0;
+}
+
+#list-skill h3{
+    color: dimgrey;
+    font-size: 18px;
+    padding: 5px 0;    
+}
+
+.leve{
+    width: 100%;
+    height: 10px;
+    background: #E0E0E0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.leve-90{
+    height: 10px;
+    background: #0A73BC;
+    width: 90%;
+}
+
+.leve-80{
+   height: 10px;
+    background: #0A73BC;
+    width: 80%;
+}
+
+.leve-70{
+    height: 10px;
+    background: #0A73BC;
+    width: 70%;
+}
+
+.leve-20{
+    height: 10px;
+    background: #0A73BC;
+    width: 20%;
+}
+
+/*FIM da CSS*/
+
+
+/*HEADER*/
+
+.container{
+    width: 85%;
+    left: 30.5%;
+    position: relative;
+    
+}
+
+header.head{
+    background: #fff;
+    width: 80%;
+    
+    position: relative;
+    padding: 10px0;
+    box-shadow: 0px 0px 27px 0px rgba(182, 182, 182, 0.83);
+}
+
+.head::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div#contac-me, div#about-me{
+    padding: 20px 40px;
+    float: left;
+    width: 42%;
+}
+
+div#about-me{
+    border-left: 5px solid #ccc;
+}
+
+
+#about-me h1, #contac-me h1{
+    color: #0A73BC;
+}
+
+#about-me p, #contac-me p{
+    color: #8a8a8a;
+    font-size: 19px;
+}
+
+
+ul.list-contac li{
+    list-style-type: none; 
+    display: block;
+    font-size: 18px;
+    color: #8a8a8a;
+    padding: 3px 0;
+}
+
+ul.list-contac i{
+    margin-right: 15px;
+}
+
+
+/*----FIMHEADER---*/
+
+
+/*---bio----*/
+
+
+section#bio, section#idiomas, section#experiencia{
+    background: #bcdeee;
+    width: 60%;
+
+    margin: 20px 100px;
+    overflow: hidden;
+    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+     box-shadow: 0px 0px 27px 0px rgba(182, 182, 182, 0.83);
+}
+
+
+
+
+
+.title-name{
+    font-size: 25px;
+    font-family: 'Cambria';
+}
+
+.formacao,.idiomas, .experiencia{
+    font-size: 20px;
+}
+
+div.avatar2{
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    z-index: 100;
+    position: absolute;
+    bottom: -75px;
+    left: 50px;
+    border-radius: 100%;
+    box-shadow: 0.14px 1.995px 26.68px 2.32px rgba(179,175,1760.28);
+}
+
+
+
